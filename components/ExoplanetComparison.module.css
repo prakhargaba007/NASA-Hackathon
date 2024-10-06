@@ -1,0 +1,129 @@
+.container {
+  color: whitesmoke;
+  margin: 20px 150px;
+  border: rgb(59, 59, 59) 1px solid;
+}
+
+.containerHeader {
+  display: flex;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  border-right: rgb(59, 59, 59) 1px solid;
+  padding: 25px;
+}
+
+.main2 {
+  display: flex;
+  padding: 25px;
+  gap: 20px;
+}
+
+.main21 {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.main22 {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.undiscoverdMysteries {
+  display: flex;
+  border-top: rgb(59, 59, 59) 1px solid;
+  padding: 20px;
+}
+
+.image {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+}
+
+.undiscoverdMysteries > div {
+  width: 50%;
+  padding: 0 20px;
+}
+
+.undiscoverdMysteries h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.undiscoverdMysteries ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.undiscoverdMysteries li {
+  margin-bottom: 20px;
+}
+
+.undiscoverdMysteries h4 {
+  margin-bottom: 5px;
+}
+
+.undiscoverdMysteries p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #a8a8a8;
+}
+
+.undiscoverdMysteries button {
+  background-color: #ff595e;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.undiscoverdMysteries button:hover {
+  background-color: #ff4146;
+}
+
+@media (max-width: 480px) {
+  .container {
+    margin: 20px;
+  }
+
+  .containerHeader {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main {
+    border-bottom: rgb(59, 59, 59) 1px solid;
+  }
+
+  .main2 {
+    flex-direction: column;
+  }
+
+  .main22 {
+    margin-top: 0px;
+  }
+
+  .undiscoverdMysteries {
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  .undiscoverdMysteries > div {
+    width: 88%;
+    padding: 20px ;
+  }
+}
